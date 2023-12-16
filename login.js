@@ -1,11 +1,11 @@
 const LoginBtn = document.getElementById("Lgbtn");
 const CreateBtn = document.getElementById("Cabtn");
 const Username = document.getElementById("User").value;
+const Password = document.getElementById("Pass").value;
 let existingLogin = false;
 const list = 'login.txt';
-const fs = require('fs')
 LoginBtn.addEventListener("click", function Login() {
-    list.writeFile(list,"Sup");
+    console.log(Username);
 });
 CreateBtn.addEventListener("click", function Create() {
     console.log("Create button clicked");
