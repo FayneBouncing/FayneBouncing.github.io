@@ -6,6 +6,7 @@ let Adress = document.getElementById("adress");
 let Date = document.getElementById("date");
 let Time = document.getElementById("time");
 RentBtn.addEventListener("click", function Rent() {
+    console.clear();
     console.log(Name.value);
     console.log(PhoneNumber.value);
     console.log(Email.value);
