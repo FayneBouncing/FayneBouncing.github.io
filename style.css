@@ -35,3 +35,6 @@ label {
     font-family: Bradley Hand, cursive;
     color: white;
 }
+input {
+    color: blue;
+}
