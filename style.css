@@ -19,13 +19,7 @@ html {
     font-size: 17px;
     font-family: Bradley Hand, cursive;
 }
-
 /* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #0040ff;
-    color: white;
-}
-
 h1 {
     font-family: Bradley Hand, cursive;
     color: white;
