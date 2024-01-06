@@ -13,7 +13,7 @@ RentBtn.addEventListener("click", function Rent() {
     console.log(Email.value);
     console.log(Adress.value);
     console.log(Date.value + " @" + Time.value);
-    if(BounceHouse.value = true){
+    if(BounceHouse.checked){
         console.log("Bounce House");
     }
 });
