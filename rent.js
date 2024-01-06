@@ -51,6 +51,7 @@ RentBtn.addEventListener("click", function Rent() {
     SlipSlide.style.display = "none";
     VB.style.display = "none";
     Volleyball.style.display = "none";
+    RentBtn.style.display = "none";
     if (BounceHouse.checked) {
         console.log("Bounce House");
         BH.style.display = "block";
