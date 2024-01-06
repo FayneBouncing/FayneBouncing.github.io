@@ -17,19 +17,19 @@ RentBtn.addEventListener("click", function Rent() {
     console.log(Email.value);
     console.log(Adress.value);
     console.log(Date.value + " @" + Time.value);
-    if(BounceHouse.checked){
+    if (BounceHouse.checked) {
         console.log("Bounce House");
     }
-    if(PurpleSlide.checked){
+    if (PurpleSlide.checked) {
         console.log("Purple Slide");
     }
-    if(RainbowSlide.checked){
+    if (RainbowSlide.checked) {
         console.log("Rainbow Slide");
     }
-    if(SlipSlide.checked){
+    if (SlipSlide.checked) {
         console.log("Slip Slide");
     }
-    if(Volleyball.checked){
+    if (Volleyball.checked) {
         console.log("Volleyball");
     }
 });
