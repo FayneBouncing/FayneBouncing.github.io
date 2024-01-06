@@ -28,21 +28,7 @@ RentBtn.addEventListener("click", function Rent() {
     console.log(Email.value);
     console.log(Adress.value);
     console.log(Date.value + " @" + Time.value);
-    if (BounceHouse.checked) {
-        console.log("Bounce House");
-    }
-    if (PurpleSlide.checked) {
-        console.log("Purple Slide");
-    }
-    if (RainbowSlide.checked) {
-        console.log("Rainbow Slide");
-    }
-    if (SlipSlide.checked) {
-        console.log("Slip Slide");
-    }
-    if (Volleyball.checked) {
-        console.log("Volleyball");
-    }
+   
     NameLabel.style.display = "none";
     Name.style.display = "none";
     Pnumber.style.display = "none";
@@ -65,4 +51,24 @@ RentBtn.addEventListener("click", function Rent() {
     SlipSlide.style.display = "none";
     VB.style.display = "none";
     Volleyball.style.display = "none";
+    if (BounceHouse.checked) {
+        console.log("Bounce House");
+        BH.style.display = "block";
+    }
+    if (PurpleSlide.checked) {
+        console.log("Purple Slide");
+        PS.style.display = "block";
+    }
+    if (RainbowSlide.checked) {
+        console.log("Rainbow Slide");
+        RS.style.display = "block";
+    }
+    if (SlipSlide.checked) {
+        console.log("Slip Slide");
+        SS.style.display = "block";
+    }
+    if (Volleyball.checked) {
+        console.log("Volleyball");
+        VB.style.display = "block";
+    }
 });
