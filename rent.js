@@ -5,7 +5,7 @@ let Email = document.getElementById("email");
 let Adress = document.getElementById("adress");
 let Date = document.getElementById("date");
 let Time = document.getElementById("time");
-let BounceHouse = document.getElementById("bouncehouse");
+let BounceHouse = document.getElementById("bounceHouse");
 RentBtn.addEventListener("click", function Rent() {
     console.clear();
     console.log(Name.value);
