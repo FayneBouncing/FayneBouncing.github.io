@@ -32,4 +32,5 @@ RentBtn.addEventListener("click", function Rent() {
     if (Volleyball.checked) {
         console.log("Volleyball");
     }
+    Name.style.display = "none";
 });
