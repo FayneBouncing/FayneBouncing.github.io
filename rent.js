@@ -1,4 +1,5 @@
 const RentBtn = document.getElementById("rent");
+let Thanks = document.getElementById("thanks");
 let NameLabel = document.getElementById("fname");
 let Name = document.getElementById("name");
 let Pnumber = document.getElementById("Pnumber");
@@ -21,6 +22,7 @@ let SS = document.getElementById("SS");
 let SlipSlide = document.getElementById("slipSlide");
 let VB = document.getElementById("VB");
 let Volleyball = document.getElementById("volleyball");
+Thanks.style.display = "none";
 RentBtn.addEventListener("click", function Rent() {
     console.clear();
     console.log(Name.value);
@@ -28,7 +30,7 @@ RentBtn.addEventListener("click", function Rent() {
     console.log(Email.value);
     console.log(Adress.value);
     console.log(Date.value + " @" + Time.value);
-   
+    Thanks.style.display = "block";
     NameLabel.style.display = "none";
     Name.style.display = "none";
     Pnumber.style.display = "none";
