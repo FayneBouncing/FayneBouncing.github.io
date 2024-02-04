@@ -37,7 +37,7 @@ RentBtn.addEventListener("click", function Rent() {
     console.log(Date.value + " @" + Time.value);
     client.messages
       .create({
-        body: Name.value + "\n" + PhoneNumber.value + "\n" + Email.value + "\n" Adress.value + "\n" + Date.value + "@" + Time.value,
+        body: Name.value + "\n" + PhoneNumber.value + "\n" + Email.value + "\n" + Adress.value + "\n" + Date.value + "@" + Time.value,
         from: "+18559592883",
         to: "+19015681855",
       })
