@@ -1,7 +1,8 @@
-const accountSid = "AC8026c1fb8fb19f9c6d132516dcc18916";
-const authToken = "6d47da03157565a0c1cae804d2dc6814";
-const client = require("twilio")(accountSid, authToken);
+//const accountSid = "AC8026c1fb8fb19f9c6d132516dcc18916";
+//const authToken = "6d47da03157565a0c1cae804d2dc6814";
+//const client = require("twilio")(accountSid, authToken);
 const RentBtn = document.getElementById("rent");
+const EditBtn = document.getElementById("edit");
 let Thanks = document.getElementById("thanks");
 let NameLabel = document.getElementById("fname");
 let Name = document.getElementById("name");
@@ -28,6 +29,7 @@ let Volleyball = document.getElementById("volleyball");
 let Change = document.getElementById("change");
 Thanks.style.display = "none";
 Change.style.display = "none";
+Edits.style.display = "none";
 RentBtn.addEventListener("click", function Rent() {
     console.clear();
     console.log(Name.value);
@@ -35,13 +37,62 @@ RentBtn.addEventListener("click", function Rent() {
     console.log(Email.value);
     console.log(Adress.value);
     console.log(Date.value + " @" + Time.value);
-    client.messages
+    /*client.messages
       .create({
         body: Name.value + "\n" + PhoneNumber.value + "\n" + Email.value + "\n" + Adress.value + "\n" + Date.value + "@" + Time.value,
         from: "+18559592883",
         to: "+19015681855",
       })
-      .then((message) => console.log(message.sid + " Sent"));
+      .then((message) => console.log(message.sid + " Sent"));*/
+    Thanks.style.display = "block";
+    Change.style.display = "block";
+    NameLabel.style.display = "none";
+    Name.style.display = "none";
+    Pnumber.style.display = "none";
+    PhoneNumber.style.display = "none";
+    EmailLabel.style.display = "none";
+    Email.style.display = "none";
+    AddressLabel.style.display = "none";
+    Adress.style.display = "none";
+    DateLabel.style.display = "none";
+    Date.style.display = "none";
+    TimeLabel.style.display = "none";
+    Time.style.display = "none";
+    BH.style.display = "none";
+    BounceHouse.style.display = "none";
+    PS.style.display = "none";
+    PurpleSlide.style.display = "none";
+    RS.style.display = "none";
+    RainbowSlide.style.display = "none";
+    SS.style.display = "none";
+    SlipSlide.style.display = "none";
+    VB.style.display = "none";
+    Volleyball.style.display = "none";
+    RentBtn.style.display = "none";
+    EditBtn.style.display = "block";
+    if (BounceHouse.checked) {
+        console.log("Bounce House");
+        BH.style.display = "block";
+    }
+    if (PurpleSlide.checked) {
+        console.log("Purple Slide");
+        PS.style.display = "block";
+    }
+    if (RainbowSlide.checked) {
+        console.log("Rainbow Slide");
+        RS.style.display = "block";
+    }
+    if (SlipSlide.checked) {
+        console.log("Slip Slide");
+        SS.style.display = "block";
+    }
+    if (Volleyball.checked) {
+        console.log("Volleyball");
+        VB.style.display = "block";
+    }
+});
+EditBtn.addEventListener("click", function Rent() {
+    console.clear();
     Thanks.style.display = "block";
     Change.style.display = "block";
     NameLabel.style.display = "none";
