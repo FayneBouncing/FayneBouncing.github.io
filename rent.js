@@ -29,7 +29,7 @@ let Volleyball = document.getElementById("volleyball");
 let Change = document.getElementById("change");
 Thanks.style.display = "none";
 Change.style.display = "none";
-Edits.style.display = "none";
+EditBtn.style.display = "none";
 RentBtn.addEventListener("click", function Rent() {
     console.clear();
     console.log(Name.value);
@@ -91,51 +91,32 @@ RentBtn.addEventListener("click", function Rent() {
         VB.style.display = "block";
     }
 });
-EditBtn.addEventListener("click", function Rent() {
+EditBtn.addEventListener("click", function edit() {
     console.clear();
-    Thanks.style.display = "block";
-    Change.style.display = "block";
-    NameLabel.style.display = "none";
-    Name.style.display = "none";
-    Pnumber.style.display = "none";
-    PhoneNumber.style.display = "none";
-    EmailLabel.style.display = "none";
-    Email.style.display = "none";
-    AddressLabel.style.display = "none";
-    Adress.style.display = "none";
-    DateLabel.style.display = "none";
-    Date.style.display = "none";
-    TimeLabel.style.display = "none";
-    Time.style.display = "none";
-    BH.style.display = "none";
-    BounceHouse.style.display = "none";
-    PS.style.display = "none";
-    PurpleSlide.style.display = "none";
-    RS.style.display = "none";
-    RainbowSlide.style.display = "none";
-    SS.style.display = "none";
-    SlipSlide.style.display = "none";
-    VB.style.display = "none";
-    Volleyball.style.display = "none";
-    RentBtn.style.display = "none";
-    if (BounceHouse.checked) {
-        console.log("Bounce House");
-        BH.style.display = "block";
-    }
-    if (PurpleSlide.checked) {
-        console.log("Purple Slide");
-        PS.style.display = "block";
-    }
-    if (RainbowSlide.checked) {
-        console.log("Rainbow Slide");
-        RS.style.display = "block";
-    }
-    if (SlipSlide.checked) {
-        console.log("Slip Slide");
-        SS.style.display = "block";
-    }
-    if (Volleyball.checked) {
-        console.log("Volleyball");
-        VB.style.display = "block";
-    }
+    Thanks.style.display = "none";
+    Change.style.display = "none";
+    NameLabel.style.display = "block";
+    Name.style.display = "block";
+    Pnumber.style.display = "block";
+    PhoneNumber.style.display = "block";
+    EmailLabel.style.display = "block";
+    Email.style.display = "block";
+    AddressLabel.style.display = "block";
+    Adress.style.display = "block";
+    DateLabel.style.display = "block";
+    Date.style.display = "block";
+    TimeLabel.style.display = "block";
+    Time.style.display = "block";
+    BH.style.display = "block";
+    BounceHouse.style.display = "block";
+    PS.style.display = "block";
+    PurpleSlide.style.display = "block";
+    RS.style.display = "block";
+    RainbowSlide.style.display = "block";
+    SS.style.display = "block";
+    SlipSlide.style.display = "block";
+    VB.style.display = "block";
+    Volleyball.style.display = "block";
+    RentBtn.style.display = "block";
+    EditBtn.style.display = "none";
 });
