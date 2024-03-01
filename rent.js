@@ -1,6 +1,6 @@
-//const accountSid = "AC8026c1fb8fb19f9c6d132516dcc18916";
-//const authToken = "6d47da03157565a0c1cae804d2dc6814";
-//const client = require("twilio")(accountSid, authToken);
+/*const accountSid = "AC8026c1fb8fb19f9c6d132516dcc18916";
+const authToken = "6d47da03157565a0c1cae804d2dc6814";
+const client = require("twilio")(accountSid, authToken);*/
 const RentBtn = document.getElementById("rent");
 const EditBtn = document.getElementById("edit");
 let Thanks = document.getElementById("thanks");
@@ -38,12 +38,12 @@ RentBtn.addEventListener("click", function Rent() {
     console.log(Adress.value);
     console.log(Date.value + " @" + Time.value);
     /*client.messages
-      .create({
-        body: Name.value + "\n" + PhoneNumber.value + "\n" + Email.value + "\n" + Adress.value + "\n" + Date.value + "@" + Time.value,
-        from: "+18559592883",
-        to: "+19015681855",
-      })
-      .then((message) => console.log(message.sid + " Sent"));*/
+        .create({
+            body: Name.value + "\n" + PhoneNumber.value + "\n" + Email.value + "\n" + Adress.value + "\n" + Date.value + "@" + Time.value,
+            from: "+18559592883",
+            to: "+19015681855",
+        })
+        .then((message) => console.log(message.sid + " Sent"));*/
     Thanks.style.display = "block";
     Change.style.display = "block";
     NameLabel.style.display = "none";
@@ -119,4 +119,5 @@ EditBtn.addEventListener("click", function edit() {
     Volleyball.style.display = "block";
     RentBtn.style.display = "block";
     EditBtn.style.display = "none";
+
 });
