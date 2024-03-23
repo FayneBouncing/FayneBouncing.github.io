@@ -32,3 +32,6 @@ label {
     font-family: Bradley Hand, cursive;
     color: white;
 }
+.Name-Container {
+    display: flex;
+}
