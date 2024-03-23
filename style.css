@@ -32,21 +32,36 @@ label {
     font-family: Bradley Hand, cursive;
     color: white;
 }
-.Name-Container {
+.Name {
     display: flex;
 }
-.Phone-Container {
+.Phone {
     display: flex;
 }
-.Email-Container {
+.Email {
     display: flex;
 }
-.Address-Container {
+.Address {
     display: flex;
 }
-.Date-Container {
+.Date {
     display: flex;
 }
-.Time-Container {
+.Time {
+    display: flex;
+}
+.BounceHouse {
+    display: flex;
+}
+.PurpleSlide {
+    display: flex;
+}
+.RainbowSlide {
+    display: flex;
+}
+.SlipNSlide {
+    display: flex;
+}
+.Volleyball {
     display: flex;
 }
