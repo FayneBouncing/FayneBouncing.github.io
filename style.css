@@ -35,3 +35,18 @@ label {
 .Name-Container {
     display: flex;
 }
+.Phone-Container {
+    display: flex;
+}
+.Email-Container {
+    display: flex;
+}
+.Address-Container {
+    display: flex;
+}
+.Date-Container {
+    display: flex;
+}
+.Time-Container {
+    display: flex;
+}
