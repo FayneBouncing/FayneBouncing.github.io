@@ -1,5 +1,3 @@
-
-
 const RentBtn = document.getElementById("rent");
 let Thanks = document.getElementById("thanks");
 let NameLabel = document.getElementById("fname");
